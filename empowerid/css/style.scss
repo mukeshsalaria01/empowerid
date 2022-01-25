@@ -1,1 +1,20 @@
-@import '../node_modules/bootstrap/scss/bootstrap.scss'
+// ========== bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+// ========== font Family
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+// ========== colors variables
+$primary : #307fc1;
+$success : #00a17d;
+$danger : #d0021b;
+$secondary : #d2d2d2;
+$dark : #333333;
+$light : #efeff1;
+
+
+body {
+    font-family: 'Rubik', sans-serif !important;
+}
